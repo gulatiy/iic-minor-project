@@ -1,0 +1,105 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer > div {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-primary {
+  background-color: rgb(65, 79, 180);
+}
+.color-primary-font,
+.color-secondary-font {
+  color: #ffffff;
+}
+
+.color-secondary {
+  background-color: rgb(92 93 114);
+}
+
+.navbar-toggler {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.centerContent {
+  height: calc(100% - 126px);
+}
+
+.topNavMobile {
+  height: 56px;
+}
+
+.form-width {
+  width: 35%;
+}
+
+.navbar-brand > img {
+  height: 50px;
+  width: 50px;
+}
+
+.loginButton:disabled {
+  cursor: not-allowed;
+}
+
+.sideNav,
+.topNavMobile {
+  background-color: rgb(104, 118, 221);
+}
+
+.mainCompanyText {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.quoteImage {
+  width: 150px;
+  align-self: center;
+}
+.editButton {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+.mainContent {
+  overflow-y: auto;
+  height: 100%;
+}
+.sideNavItem {
+  cursor: pointer;
+}
+.form-label {
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .mainContent {
+    overflow-y: auto;
+    height: calc(100% - 56px);
+  }
+  .form-width {
+    width: 50%;
+  }
+  .sideNav {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .form-width {
+    width: 80%;
+  }
+}
