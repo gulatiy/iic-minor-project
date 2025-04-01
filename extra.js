@@ -636,7 +636,7 @@ function ajaxRequest(url, type, data) {
     url: url,
     type: type,
     data: type === "POST" || type === "PUT" ? data : null,
-    headers: { userToken: "eYfwM3kxbTOJKoWx0Uo5OaHFfraLywQwiTq5BT74BOmgEL11nN", userEmail: "yashik@insureinfinite.com" },
+    headers: { userToken: "eYfwM3k", userEmail: "y" },
     accepts: {
       text: "application/json",
     },
